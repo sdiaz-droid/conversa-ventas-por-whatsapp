@@ -10,3 +10,5 @@ Copia estática de la página de producto de Pxsol para editarla en equipo y ver
 preview para verlo. Al mergear a `main` se publica en https://conversa-ventas-por-whatsapp.vercel.app
 
 Lo que se apruebe acá después se porta al sitio real (Nexus, PR #9581).
+
+Preview automática: cada push a una rama o a `main` dispara un deploy en Vercel.
