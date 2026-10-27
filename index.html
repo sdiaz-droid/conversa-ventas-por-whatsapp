@@ -4249,6 +4249,13 @@ html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!
 .pxsite .cv .close .cv-lead{max-width:44ch}
 .pxsite .cv .close .small{display:block;margin-top:16px}
 @media (max-width:720px){.pxsite .cv .close{padding:32px 20px;border-radius:28px}}
+
+/* ── Cierre con imagen (Sofi, 27/10): los dos celulares de App Conversa a la derecha ── */
+.pxsite .cv .close{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:32px;align-items:center;overflow:hidden;padding:56px 0 56px 64px}
+.pxsite .cv .close-img{position:relative;align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:360px}
+.pxsite .cv .close-img img{display:block;width:118%;max-width:none;height:auto;margin-right:-10%;filter:drop-shadow(0 30px 40px rgba(0,0,23,.18))}
+@media (max-width:900px){.pxsite .cv .close{grid-template-columns:minmax(0,1fr);padding:40px 24px 0}.pxsite .cv .close-img{min-height:0;margin-top:8px}.pxsite .cv .close-img img{width:100%;margin:0}}
+@media (max-width:720px){.pxsite .cv .close{padding:32px 20px 0;border-radius:28px}}
 </style><div class="cv cv-top"><div class="halos" aria-hidden="true">
   <div class="halo h-cel" style="width:760px;height:620px;right:-220px;top:-180px"></div>
   <div class="halo h-ia" style="width:620px;height:520px;left:-260px;top:560px"></div>
@@ -4538,6 +4545,7 @@ html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!
       </div>
       <span class="small">Sin tarjeta de crédito. Configuración acompañada por un asesor.</span>
     </div>
+    <div class="close-img" aria-hidden="true"><img src="/producto/assets/conversa/cierre-celulares.png" alt="" width="1200" height="900" loading="lazy" decoding="async"></div>
   </div>
 </section>
 
